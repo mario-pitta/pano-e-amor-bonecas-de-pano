@@ -16,9 +16,7 @@ import { CommonModule } from "@angular/common";
   imports: [
     CommonModule,
     RouterModule
-  ],
-  schemas: [
-    CUSTOM_ELEMENTS_SCHEMA
   ]
+
 })
 export class LayoutModule { }

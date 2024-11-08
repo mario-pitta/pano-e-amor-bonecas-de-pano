@@ -1,1 +1,50 @@
-<p>header works!</p>
+<!-- <nav>
+  <div class="nav-container">
+      <a [routerLink]="['/']" class="logo">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Pano e Amor <span class="d-sm-none">- Bonecas de Pano </span>
+      </a>
+
+      <div class="menu">
+          <a [routerLink]="['produtos']">Produtos</a>
+          <a [routerLink]="['sobre']">Sobre</a>
+          <a [routerLink]="['contato']">Contato</a>
+      </div>
+  </div>
+</nav> -->
+
+
+<nav class="navbar navbar-expand-lg">
+  <div class="nav-container container-fluid">
+    <a [routerLink]="['/']" class="logo">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </svg>
+      Pano e Amor <span class="d-none d-md-block"> - Bonecas de Pano </span>
+    </a>
+
+
+
+    <button class="navbar-toggler" type="button"
+      aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleMenu()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse end-100" id="menu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page"[routerLink]="['produtos']">Produtos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" [routerLink]="['sobre']">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" [routerLink]="['contato']">Contato</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
