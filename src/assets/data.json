@@ -1,0 +1,44 @@
+{
+  "dolls": [
+    {
+      "id": 1,
+      "name": "Boneca 1",
+      "description": "Boneca 1",
+      "details": " Boneca de Pano Tradicional com 3 peças de roupas e 1 peça de cabelo",
+      "price": 100.00,
+      "imageUrl": "assets/images/products/dolls/doll-01.png"
+    },
+    {
+      "id": 2,
+      "name": "Boneca 2",
+      "description": "Boneca 2",
+      "details": "",
+      "price": 100.00,
+      "imageUrl": "assets/images/products/dolls/doll-02.png"
+    },
+    {
+      "id": 3,
+      "name": "Boneca 3",
+      "description": "Boneca 3",
+      "details": "",
+      "price": 100.99,
+      "imageUrl": "assets/images/products/dolls/doll-03.png"
+    },
+    {
+      "id": 4,
+      "name": "Boneca 4",
+      "description": "Boneca 4",
+      "details": "",
+      "price": 100,
+      "imageUrl": "assets/images/products/dolls/doll-04.png"
+    },
+    {
+      "id": 5,
+      "name": "Combo 1 ",
+      "description": "- Boneca 3 e Boneca 4",
+      "details": "",
+      "price": 100,
+      "imageUrl": "assets/images/products/dolls/doll-05-combo.png"
+    }
+  ]
+}

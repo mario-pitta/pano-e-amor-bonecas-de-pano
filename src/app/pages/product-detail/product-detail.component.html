@@ -1,1 +1,19 @@
-<p>product-detail works!</p>
+<div class="container" *ngIf="doll">
+  <div class="card p-2">
+    <div class="card-header bg-transparent">
+      <h3>{{ doll.name }}</h3>
+    </div>
+    <div class="card-body">
+      <div class="row  mt-5">
+        <div class="col-6">
+          <img src="{{doll.imageUrl}}" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="col-6">
+          <p>{{doll.details}}</p>
+          <p class="price">{{doll.price | currency: 'R$ '}}</p>
+          <a href="#" class="button">Compre agora</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

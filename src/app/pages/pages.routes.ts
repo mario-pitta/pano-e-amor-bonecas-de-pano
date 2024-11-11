@@ -9,6 +9,10 @@ const routes: Routes = [
 
   },
   {
+    path: 'produto/:type/:id',
+    loadComponent: () => import('./product-detail/product-detail.component').then(m => m.ProductDetailComponent)
+  },
+  {
     path: 'produtos',
     loadComponent: () => import('./product-list/product-list.component').then(m => m.ProductListComponent)
   },

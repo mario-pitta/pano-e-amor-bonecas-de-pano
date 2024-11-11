@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from "@angular/core";
 import { PagesRoutesModule } from "./pages.routes";
 
@@ -5,5 +6,6 @@ import { PagesRoutesModule } from "./pages.routes";
   declarations: [],
   imports: [PagesRoutesModule],
   exports: [],
+  providers: [],
 })
 export class PagesModule {}

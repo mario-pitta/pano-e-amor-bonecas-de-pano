@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from "@angular/core";
 import { LayoutComponent } from "./layout.component";
 import { HeaderComponent } from "./header/header.component";
@@ -15,8 +16,10 @@ import { CommonModule } from "@angular/common";
   ],
   imports: [
     CommonModule,
-    RouterModule
-  ]
+    RouterModule,
+    HttpClientModule
+  ],
+  providers: [],
 
 })
 export class LayoutModule { }
